@@ -1,2 +1,2 @@
-# Fundamentos_Web_3_Gabriel-Edrei
+# Fundamentos Web Parte 3, por Gabriel Duarte e Edrei Carlos
 Terceira parte do treinamento de fundamentos da web.
