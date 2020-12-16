@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questão 3</title>
+</head>
+
+<body>
+  <script>
+    function capitalize(text) {
+            var word = text.toLowerCase().split(" ");
+            for (var i = 0; i < word.length; i++) {
+                var p = word[i];
+                word[i] = p[0].toUpperCase() + p.slice(1);
+            }
+            return word.join(" ");
+        }
+        var word1 = "pão"
+        var word2 = "MACACO"
+        var word3 = "sORveTE"
+        console.log(capitalize(word1));
+        console.log(capitalize(word2));
+        console.log(capitalize(word3));
+  </script>
+</body>
+</html>
+
